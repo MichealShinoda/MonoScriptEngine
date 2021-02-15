@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MonoRuntime", ".\MonoRuntime\MonoRuntime.vcxproj", "{5A7A37E9-EDEF-4BC9-8292-98E72A6A7787}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonoCompiler", ".\MonoCompiler\MonoCompiler.csproj", "{75E5FDF6-A2CB-4036-AD70-EA7CE3199005}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5A7A37E9-EDEF-4BC9-8292-98E72A6A7787}.Release|x64.ActiveCfg = Release|x64
+		{5A7A37E9-EDEF-4BC9-8292-98E72A6A7787}.Release|x64.Build.0 = Release|x64
+		{75E5FDF6-A2CB-4036-AD70-EA7CE3199005}.Release|x64.ActiveCfg = Release|x64
+		{75E5FDF6-A2CB-4036-AD70-EA7CE3199005}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19D62054-D33C-4249-88A8-D34D2D9C1E6B}
+	EndGlobalSection
+EndGlobal
